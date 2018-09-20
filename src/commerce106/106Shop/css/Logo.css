@@ -1,0 +1,77 @@
+﻿html,body 
+{
+	background:#ffffff;
+	font-size:12px;
+	font:宋体
+}
+a:link
+{
+	color:#000000;
+	text-decoration:none;
+}
+a:hover
+{
+	color: #B00000;
+	text-decoration:none;
+}
+ul
+{
+	list-style:none;
+}
+li
+{
+	list-style:none;
+}
+#main
+{
+	background:#F73809;	
+    height: 80px;
+}
+#topright
+{
+	width:198px;
+	height:25px;
+	background: #F73809 no-repeat left top;
+    float:right;
+}
+#topright ul
+{
+	/float:left;
+	margin:0px;
+	//height:0px;
+	//overflow:hidden;
+	height:23px;
+}
+#topright ul li
+{
+	margin:10px 0px auto 3px;
+	float:left;
+	padding:0px;
+    width: 62px;
+}
+.fonts
+{
+	width:124px;
+	overflow:hidden;
+	float:left;
+}
+.register 
+{
+	width:30px;
+	height:23px;
+	float:left;
+	margin:0px 0px auto 10px;
+	padding:0px;
+}
+#registerlogin
+{
+	margin:3px;
+}
+.enroll
+{
+	width:70px;
+	height:23px;
+	float:left;
+	margin:0px 0px auto 10px;
+	padding:0px;
+}

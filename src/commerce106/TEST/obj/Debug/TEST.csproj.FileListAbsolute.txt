@@ -1,0 +1,5 @@
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\陇原商城\TEST\bin\Debug\TEST.dll
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\陇原商城\TEST\bin\Debug\TEST.pdb
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\陇原商城\TEST\obj\Debug\TEST.csprojResolveAssemblyReference.cache
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\陇原商城\TEST\obj\Debug\TEST.dll
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\陇原商城\TEST\obj\Debug\TEST.pdb

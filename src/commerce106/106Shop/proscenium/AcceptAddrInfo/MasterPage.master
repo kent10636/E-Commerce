@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="proscenium_AcceptAddrInfo_MasterPage" %>
+
+<%@ Register src="~/Tool/Logo.ascx" tagname="Logo" tagprefix="uc1" %>
+<%@ Register src="~/Tool/List.ascx" tagname="List" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <script type="text/javascript">
+        pc.BindClassRoot("selectprompt");
+    </script>
+    <title>电子商务个人信息管理</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        body {
+            overflow:scroll;
+            overflow-x:hidden;
+            font-size:12px;
+            height: auto;
+            margin:0 160px 0 160px;border:0 0 0 0;padding:0 0 0 0;
+        }
+        .style1
+        {
+            width: auto;
+            height:auto;
+        }
+        .auto-style2 {
+            height:auto;
+        }
+ul
+{
+	list-style:none;
+}
+li
+{
+	list-style:none;
+}
+#main
+{
+	background:url(../images/space.jpg);	
+    height: 80px;
+}
+#topright
+{
+	width:198px;
+	height:25px;
+    float:right;
+}
+#topright ul
+{
+	/float:left;
+	margin:0px;
+	//height:0px;
+	//overflow:hidden;
+	height:23px;
+}
+#topright ul li
+{
+	margin:10px 0px auto 3px;
+	float:left;
+    color:#fff;
+	padding:0px;
+    width: 62px;
+}
+.fonts
+{
+	width:124px;
+	overflow:hidden;
+	float:left;
+}
+.register 
+{
+	width:30px;
+	height:23px;
+	float:left;
+	margin:0px 0px auto 10px;
+	padding:0px;
+}
+#registerlogin
+{
+	margin:3px;
+}
+.enroll
+{
+	width:70px;
+	height:23px;
+	float:left;
+	margin:0px 0px auto 10px;
+	padding:0px;
+}
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server" style="margin:0 0 0 0;border:0 0 0 0;padding:0 0 0 0;">
+        <div id="main">
+            <div id="tophone">
+                <div id="topright">
+                    <div class="register">
+                        <ul>
+                            <li id="registerlogin">
+                                <asp:LinkButton ID="lnkRegister" runat="server" Height="15px" style="color:#f2f695" PostBackUrl="~/user/UserRegister.aspx" ToolTip="注册">注册</asp:LinkButton>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="enroll">
+                        <ul>
+                            <li id="enrollLogin">
+                                <asp:LinkButton ID="lnkenroll" runat="server" Height="15px" style="color:#f2f695" PostBackUrl="~/user/UserLogin.aspx" ToolTip="登录">登录</asp:LinkButton>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="shopping">
+                            <ul>
+                                <li>
+                                    <asp:LinkButton ID="lnkButton1" runat="server" Height="15px"  style="color:#f2f695" PostBackUrl="~/proscenium/AcceptAddrInfo/Default.aspx" ToolTip="个人信息">个人信息</asp:LinkButton>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <td colspan="2">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/images/xdlogo.png" />
+                    </td>
+            </div>
+        </div>
+        <table cellpadding="0" cellspacing="0" class="style1">
+            <tr>
+                <td style="width:190px; margin-left:20px; height:400px" valign="top">
+                    <uc2:List ID="List" runat="server" />
+                </td>
+                
+                <td class="auto-style2" valign="top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

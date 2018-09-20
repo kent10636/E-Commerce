@@ -1,0 +1,13 @@
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\陇原商城\DBUtility\bin\Debug\DBUtility.dll
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\陇原商城\DBUtility\bin\Debug\DBUtility.pdb
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\陇原商城\DBUtility\obj\Debug\DBUtility.dll
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\陇原商城\DBUtility\obj\Debug\DBUtility.pdb
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\commerce106\DBUtility\bin\Debug\DBUtility.dll
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\commerce106\DBUtility\bin\Debug\DBUtility.pdb
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\commerce106\DBUtility\obj\Debug\DBUtility.dll
+F:\大学\项目工程\校内实训\Lyzj_Store-master\src\commerce106\DBUtility\obj\Debug\DBUtility.pdb
+E:\Engineering_Pratice\jay\Lyzj_Store-master\src\commerce106\DBUtility\bin\Debug\DBUtility.dll
+E:\Engineering_Pratice\jay\Lyzj_Store-master\src\commerce106\DBUtility\bin\Debug\DBUtility.pdb
+E:\Engineering_Pratice\jay\Lyzj_Store-master\src\commerce106\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+E:\Engineering_Pratice\jay\Lyzj_Store-master\src\commerce106\DBUtility\obj\Debug\DBUtility.dll
+E:\Engineering_Pratice\jay\Lyzj_Store-master\src\commerce106\DBUtility\obj\Debug\DBUtility.pdb
